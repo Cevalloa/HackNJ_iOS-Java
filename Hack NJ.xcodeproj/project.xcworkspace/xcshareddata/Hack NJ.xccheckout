@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>ECD26D8A-87C4-4DD2-8404-1844C761A086</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Hack NJ</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>0337FA33C9434D8A73AEDCB863073A5150FC93DB</key>
+		<string>https://github.com/Cevalloa/HackNJ_iOS-Java.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Hack NJ.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>0337FA33C9434D8A73AEDCB863073A5150FC93DB</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/Cevalloa/HackNJ_iOS-Java.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>0337FA33C9434D8A73AEDCB863073A5150FC93DB</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>0337FA33C9434D8A73AEDCB863073A5150FC93DB</string>
+			<key>IDESourceControlWCCName</key>
+			<string>HackNJ_iOS-Java</string>
+		</dict>
+	</array>
+</dict>
+</plist>
