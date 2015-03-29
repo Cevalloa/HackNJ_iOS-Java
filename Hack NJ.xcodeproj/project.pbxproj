@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CCB56FE31AC8619F00D56329 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCB56FE21AC8619F00D56329 /* DetailViewController.m */; };
 		CCB5B6681AC740AB00729875 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CCB5B6671AC740AB00729875 /* main.m */; };
 		CCB5B66B1AC740AB00729875 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CCB5B66A1AC740AB00729875 /* AppDelegate.m */; };
 		CCB5B66E1AC740AB00729875 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCB5B66D1AC740AB00729875 /* ViewController.m */; };
@@ -14,6 +15,7 @@
 		CCB5B6731AC740AB00729875 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCB5B6721AC740AB00729875 /* Images.xcassets */; };
 		CCB5B6761AC740AB00729875 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCB5B6741AC740AB00729875 /* LaunchScreen.xib */; };
 		CCB5B6821AC740AB00729875 /* Hack_NJTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CCB5B6811AC740AB00729875 /* Hack_NJTests.m */; };
+		CCB5B6901AC7596400729875 /* Issue.m in Sources */ = {isa = PBXBuildFile; fileRef = CCB5B68F1AC7596400729875 /* Issue.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +29,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CCB56FE11AC8619F00D56329 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		CCB56FE21AC8619F00D56329 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		CCB5B6621AC740AB00729875 /* Hack NJ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hack NJ.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCB5B6661AC740AB00729875 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CCB5B6671AC740AB00729875 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +44,8 @@
 		CCB5B67B1AC740AB00729875 /* Hack NJTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hack NJTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCB5B6801AC740AB00729875 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CCB5B6811AC740AB00729875 /* Hack_NJTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Hack_NJTests.m; sourceTree = "<group>"; };
+		CCB5B68E1AC7596400729875 /* Issue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Issue.h; sourceTree = "<group>"; };
+		CCB5B68F1AC7596400729875 /* Issue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Issue.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +91,10 @@
 				CCB5B66A1AC740AB00729875 /* AppDelegate.m */,
 				CCB5B66C1AC740AB00729875 /* ViewController.h */,
 				CCB5B66D1AC740AB00729875 /* ViewController.m */,
+				CCB56FE11AC8619F00D56329 /* DetailViewController.h */,
+				CCB56FE21AC8619F00D56329 /* DetailViewController.m */,
+				CCB5B68E1AC7596400729875 /* Issue.h */,
+				CCB5B68F1AC7596400729875 /* Issue.m */,
 				CCB5B66F1AC740AB00729875 /* Main.storyboard */,
 				CCB5B6721AC740AB00729875 /* Images.xcassets */,
 				CCB5B6741AC740AB00729875 /* LaunchScreen.xib */,
@@ -219,9 +229,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CCB56FE31AC8619F00D56329 /* DetailViewController.m in Sources */,
 				CCB5B66E1AC740AB00729875 /* ViewController.m in Sources */,
 				CCB5B66B1AC740AB00729875 /* AppDelegate.m in Sources */,
 				CCB5B6681AC740AB00729875 /* main.m in Sources */,
+				CCB5B6901AC7596400729875 /* Issue.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +424,7 @@
 				CCB5B6871AC740AB00729875 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CCB5B6881AC740AB00729875 /* Build configuration list for PBXNativeTarget "Hack NJTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +433,7 @@
 				CCB5B68A1AC740AB00729875 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
